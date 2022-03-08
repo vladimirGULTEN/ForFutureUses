@@ -6,9 +6,9 @@ export const Woongdo = (n1: number, n2: number, n3:number): number => {
     for(let i = 1; i <= n3; i++) {
     if (i % n1 == 0 && i%n2==0){
       return 
-    }else if (i % n1 === 0){
+    }else if (i % n1 == 0){
       console.log('Woong\n');
-    }else if (i % n2 === 0){ 
+    }else if (i % n2 == 0){ 
       console.log('Do\n');
     }else{ 
       console.log("%d\n", i);
